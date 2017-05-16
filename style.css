@@ -1,4 +1,4 @@
-h1{
+h2{
   font-size:60px;
   font-family: 'Pathway Gothic One', sans-serif;
 }
@@ -9,9 +9,33 @@ th{
   width:75%;
   height:auto;
 }
-h2{
+h3{
   font-size:60px;
 }
 li{
   font-size:20px;
+}
+@keyframes swageffect{
+    0%  {color:blue;}
+   25%  {color:pink;}
+   50%  {color:orange;}
+   75%  {color:green;}
+   100% {color:yellow;}
+}
+@-webkit-keyframes swageffect{
+    0%  {color:blue;}
+   25%  {color:pink;}
+   50%  {color:orange;}
+   75%  {color:green;}
+   100% {color:yellow;}
+}
+#habibifc{
+  font-family: 'Bungee Shade', cursive;
+  -webkit-animation-name: swageffect; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s;
+  animation-name: swageffect;
+  font-size: 60px;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
 }
