@@ -1,4 +1,4 @@
-h2{
+h3{
   font-size:60px;
   font-family: 'Pathway Gothic One', sans-serif;
 }
@@ -9,7 +9,7 @@ th{
   width:75%;
   height:auto;
 }
-h3{
+h2{
   font-size:60px;
 }
 li{
@@ -38,4 +38,8 @@ li{
   animation-duration: 2s;
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
+}
+#soccer1{
+  width:15%;
+  height:auto;
 }
