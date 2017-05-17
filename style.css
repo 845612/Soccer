@@ -15,6 +15,9 @@ h2{
 li{
   font-size:20px;
 }
+#captain{
+  color:blue;
+}
 @keyframes swageffect{
     0%  {color:orange;}
    25%  {color:pink;}
